@@ -1,0 +1,120 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/actionIcon",
+      "Name": "MIDI: Trigger Function",
+      "States": [
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        },
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "MIDI: Trigger Function",
+      "UUID": "de.shells.totalmix.classic.midinote.action"
+    },
+    {
+      "Icon": "Images/actionIcon",
+      "Name": "MIDI: Control Faders and Gains",
+      "States": [
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        },
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "MIDI: Control Faders and Gains",
+      "UUID": "de.shells.totalmix.classic.midicc.action"
+    },
+    {
+      "Icon": "Images/actionIcon",
+      "Name": "OSC: Trigger Global Function",
+      "States": [
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        },
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "OSC: Trigger Global Function",
+      "UUID": "de.shells.totalmix.classic.osctoggle.action"
+    },
+    {
+      "Icon": "Images/actionIcon",
+      "Name": "OSC: Toggle Channel Function",
+      "States": [
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        },
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "OSC: Toogle Channel Function",
+      "UUID": "de.shells.totalmix.classic.osconoff.action"
+    },
+    {
+      "Icon": "Images/actionIcon",
+      "Name": "OSC: Control Channel",
+      "States": [
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        },
+        {
+          "Image": "Images/actionDefaultImage",
+          "TitleAlignment": "middle",
+          "FontSize": "10"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "OSC: Control Channel",
+      "UUID": "de.shells.totalmix.classic.oscchannel.action"
+    }
+  ],
+  "Category": "TotalMix FX Control Classic",
+  "CategoryIcon": "Images/category/categoryIcon",
+  "Disabled": false,
+  "Author": "shells",
+  "CodePath": "de.shells.totalmix.classic.exe",
+  "PropertyInspectorPath": "PropertyInspector/PluginActionPI.html",
+  "Description": "Control TotalMix FX with StreamDeck! Features: (rather complete) OSC and (limited) MIDI implementation. Load snapshots/mixes, toggle mute/solo globally and on individual channels, change channel volume, pan, gain, phase, cue, width, control master out and many other settings. Visit the project Github-site linked below to view a full manual!",
+  "Name": "RME TotalMix FX Control Classic",
+  "Icon": "Images/pluginIcon",
+  "URL": "https://github.com/shells-dw/streamdeck-totalmix-classic",
+  "Version": "2.2.1",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.3"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ]
+}
