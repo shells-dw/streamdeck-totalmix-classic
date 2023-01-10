@@ -4,7 +4,11 @@
 # Unofficial StreamDeck RME TotalMix FX Plugin - supporting MIDI and OSC
 
 ![Overview](/docs/images/GH_SocPic.png)
+___ 
+# Note!
+## This is an archive of the latest v2 version of the Plugin for anyone having a usecase that the [current version](https://github.com/shells-dw/streamdeck-totalmix) >v3.0.0 can not fulfill anymore. It will install alongside any more recent version as a seperated plugin so it will not be replaced by updates pushed through the StreamDeck Store - and will no longer be supported.
 
+___ 
 ## What Is This (and what does it do?)
 
 It's a plugin for the [Elgato Stream Deck][Stream Deck] that triggers actions as well as individual channel actions on the [RME TotalMix FX][] application.
